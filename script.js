@@ -4,7 +4,7 @@ const increaseBtn = document.getElementById("btn-increase")
 const p = document.getElementById("number")
 
 decreaseBtn.addEventListener("click",()=>{
-    p.innerHTML -= 1;
+    p.innerHTML = parseInt(p.innerHTML) - 1;
     numberColor();
 })
 
